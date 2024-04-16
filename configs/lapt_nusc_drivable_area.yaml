@@ -1,0 +1,30 @@
+data_config:
+  parser: 'lapt-semseg'
+
+  version: 'trainval'
+  batch_size: 1
+
+  n_workers: 0
+
+  datasets: ['lyft']
+  train_label: ['drivable_area']
+  add_map: False
+  shuffle_train: True
+
+  vis_level: 0
+  use_visibility_map: False
+
+  data_aug_conf:
+    rand_flip: False
+    ncams: 5
+    pc_rot: (0, 0)
+    cams: ['CAM_FRONT_LEFT' , 'CAM_FRONT','CAM_FRONT_RIGHT', 'CAM_BACK_RIGHT', 'CAM_BACK', 'CAM_BACK_LEFT']
+
+  grid_conf:
+    xbound: [-50., 50., 0.5]
+    ybound: [-50., 50., 0.5]
+
+
+train_config:
+  logdir: "/tmp/test_folder"
+  gpuid: 0
