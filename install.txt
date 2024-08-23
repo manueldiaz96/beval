@@ -1,0 +1,11 @@
+conda create -n beval python=3.10
+conda activate beval
+conda config --add channels pytorch
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+pip install efficientnet-pytorch==0.7.0
+pip install numba==0.57.1
+pip install nuscenes-devkit==1.1.9
+pip install lyft-dataset-sdk==0.0.8
+pip install yacs==0.1.8
+pip install tensorboardx==2.6.2.2
+pip install matplotlib==3.5.3
