@@ -178,7 +178,7 @@ def compile_loss(num_classes=1, add_map=False, gpuid=0, task='semseg', train_lab
         elif num_classes==4 :
             text_labels = [
                 'Unknown',
-                train_label,
+                train_label.capitalize(),
                 'Drivable_Area',
                 'Walkway'
             ]
@@ -192,7 +192,7 @@ def compile_loss(num_classes=1, add_map=False, gpuid=0, task='semseg', train_lab
         elif num_classes==3 :
             text_labels = [
                 'Unknown',
-                train_label,
+                train_label.capitalize(),
                 'Drivable_Area'
             ]
             weights = [0.3860,  10.9920, 1.0080]

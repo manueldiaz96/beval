@@ -45,7 +45,6 @@ class LyftData(torch.utils.data.Dataset):
             self.train_label = dataset_conf.train_label
 
         if self.add_map or self.train_label == 'drivable_area':
-           breakpoint()
            self.lyft_map = MapManager(lyft, grid_config= self.grid_conf)
 
         dx, bx, nx = gen_dx_bx(**self.grid_conf)

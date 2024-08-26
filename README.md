@@ -63,6 +63,16 @@ To train a model, use the appropriate script with the desired configuration file
 python train.py --config config/your_config_file.yaml
 ```
 
+## Testing a model
+
+To test any of our models please first download the [model zoo](https://drive.google.com/file/d/1_CIjZjkyo3Yos0B8e5_gmlrA_HsKYgek/view?usp=sharing), and extract the files.
+
+Then, launch the test script for the model you require (`lift_splat`, `LAPT` or `LAPT_PP`) as:
+
+```
+python test_LAPT.py --cfg path/to/LAPT_config.yaml --weights path/to/LAPT_model.pt
+```
+
 ## Results
 
 ### Cross-dataset evaluation

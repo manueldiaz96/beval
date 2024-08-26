@@ -14,6 +14,10 @@ import copy
 from tqdm import tqdm
 from dataloaders.data_tools.tools_pc import points_to_voxel_loop
 
+import warnings
+warnings.filterwarnings("ignore")
+
+
 def get_batch_iou(preds, binimgs):
     """Assumes preds has NOT been sigmoided yet
     """
