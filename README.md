@@ -9,6 +9,8 @@ Paper available at https://inria.hal.science/hal-04677808
 
 ## Abstract
 
+![ReadmeFig](figures/comparison.png)
+
 This paper addresses the limitation of current research in semantic bird's-eye view (BEV) segmentation for autonomous driving, which typically uses only one dataset for model optimization. We conduct a comprehensive cross-dataset evaluation of state-of-the-art BEV segmentation models to assess their performance across various datasets, setups, and semantic categories. They investigate how different sensors affect model generalization and explore multi-dataset training to improve performance. The study highlights the importance of enhancing model generalizability and adaptability for more robust BEV segmentation in autonomous driving applications.
 
 Key points:
@@ -60,6 +62,16 @@ To train a model, use the appropriate script with the desired configuration file
 ```
 python train.py --config config/your_config_file.yaml
 ```
+
+## Results
+
+### Cross-dataset evaluation
+
+![CrossEvalFig](figures/results_cross_eval.png)
+
+### Cross-dataset training
+
+![CrossTrainFig](figures/results_cross_training.png)
 
 ## Citation
 
