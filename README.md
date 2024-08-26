@@ -60,3 +60,18 @@ To train a model, use the appropriate script with the desired configuration file
 ```
 python train.py --config config/your_config_file.yaml
 ```
+
+## Citation
+
+This work is licensed under [CC BY-NC](LICENSE). If our work has been useful in your research, please consider citing us:
+
+```bibtex
+@inproceedings{beval,
+  title={BEVal: A Cross-dataset Evaluation Study of BEV Segmentation Models for Autononomous Driving},
+  author={Diaz-Zapata, Manuel and Liu, Wenqian and Baruffa, Robin and  Laugier, Christian},
+  booktitle={Proceedings of the 18th International Conference on Control, Automation, Robotics and Vision (ICARCV)},
+  pages={tbd},
+  year={2024}
+}
+
+```
