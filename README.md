@@ -4,7 +4,7 @@ Manuel Diaz-Zapata, Wenqian Liu, Robin Baruffa, Christian Laugier.
 
 To be published at the 18th International Conference on Control, Automation, Robotics and Vision (ICARCV).
 
-Paper available at https://inria.hal.science/hal-04677808
+[Preprint now available in Arxiv!](https://www.arxiv.org/abs/2408.16322)
 
 
 ## Abstract
