@@ -33,7 +33,7 @@ Key points:
 
 1. Clone this repository:
    ```
-   https://github.com/manueldiaz96/beval.git
+   git clone https://github.com/manueldiaz96/beval.git
    cd beval
    ```
 2. Install the required dependencies following the commands under [install.txt](install.txt)
