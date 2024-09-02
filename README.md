@@ -1,10 +1,13 @@
+<div align="center">
+
 # BEVal: A Cross-dataset Evaluation Study of BEV Segmentation Models for Autononomous Driving
+[![Paper](http://img.shields.io/badge/paper-arxiv.2408.16322-B31B1B.svg)](https://arxiv.org/abs/2408.16322)
+
+</div>
 
 Manuel Diaz-Zapata, Wenqian Liu, Robin Baruffa, Christian Laugier.
 
 To be published at the 18th International Conference on Control, Automation, Robotics and Vision (ICARCV).
-
-[Preprint now available in Arxiv!](https://www.arxiv.org/abs/2408.16322)
 
 
 ## Abstract
