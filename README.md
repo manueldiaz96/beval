@@ -68,7 +68,7 @@ python train.py --config config/your_config_file.yaml
 
 ## Testing a model
 
-To test any of our models please first download the [model zoo](https://drive.google.com/file/d/1_CIjZjkyo3Yos0B8e5_gmlrA_HsKYgek/view?usp=sharing), and extract the files.
+To test any of our models please first download the [model zoo](https://drive.google.com/drive/folders/1CnFbOwk380nqJdQ-fHFSPHMhrVUsrkF0?usp=drive_link), and extract the files.
 
 Then, launch the test script for the model you require (`lift_splat`, `LAPT` or `LAPT_PP`) as:
 
