@@ -1,7 +1,7 @@
 <div align="center">
 
 # BEVal: A Cross-dataset Evaluation Study of BEV Segmentation Models for Autononomous Driving
-[![Paper](http://img.shields.io/badge/paper-arxiv.2408.16322-B31B1B.svg)](https://arxiv.org/abs/2408.16322)
+[![preprint](http://img.shields.io/badge/preprint-arxiv.2408.16322-B31B1B.svg)](https://arxiv.org/abs/2408.16322)
 
 </div>
 
