@@ -30,7 +30,10 @@ Key points:
 
 - Conda environment manager
 - Having the trainval or mini split of the nuScenes dataset downloaded ([Link to nuScenes website](https://www.nuscenes.org/nuscenes#download)). 
-- Having the training or sample split of the Woven Planet dataset downloaded ([Link to Woven Planet website](https://woven.toyota/en/perception-dataset/)). 
+- Having the training or sample split of the Woven Planet dataset downloaded ([Link to Woven Planet website](https://woven.toyota/en/perception-dataset/)).
+- **Download** the subsampled point clouds for the Woven Planet dataset ([Link to HuggingFace Dataset Repo](https://huggingface.co/datasets/manutheeng/subsampled-lyft)):
+     - Trainval split point clouds ([Direct Download Link](https://huggingface.co/datasets/manutheeng/subsampled-lyft/resolve/main/subsampled_lidar_lyft.zip?download=true))
+     - Mini split point clouds ([Direct Download Link](https://huggingface.co/datasets/manutheeng/subsampled-lyft/resolve/main/mini_subsampled_lidar.zip?download=true))
 
 ### Setup
 
@@ -51,10 +54,21 @@ Key points:
      ```
      export LYFT_MINI=/path/to/woven/planet/dataset
      ``` 
+ 4. Create a folder named `subsampled_lidar` in your Woven Planet Dataset Folder
+    ```
+    cd $LYFT
+    mkdir subsampled_lidar
+    cd subsampled_lidar
+    ```
+ 5. Extract the files from the downloaded zip file for the split you need into the `subsampled_lidar` folder
+    ```
+    unzip YOUR_SPLIT_subsampled_lidar_lyft.zip -d $LYFT/subsampled_lidar
+    ``` 
 
 After completing all these steps, you should have the environment working. You can test this by loading the `beval` environment and launching the following command:
 
 ```
+conda activate beval
 python train_lift_splat.py --cfg=configs/lss_lyft_vehicle.yaml
 ```
 
