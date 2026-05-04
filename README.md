@@ -5,11 +5,6 @@
 
 </div>
 
-Manuel Diaz-Zapata, Wenqian Liu, Robin Baruffa, Christian Laugier.
-
-To be published at the 18th International Conference on Control, Automation, Robotics and Vision (ICARCV).
-
-
 ## Abstract
 
 ![ReadmeFig](figures/comparison.png)
@@ -104,13 +99,16 @@ python test_LAPT.py --cfg path/to/LAPT_config.yaml --weights path/to/LAPT_model.
 
 This work is licensed under [CC BY-NC](LICENSE). If our work has been useful in your research, please consider citing us:
 
+> Manuel Diaz-Zapata, Wenqian Liu, Robin Baruffa, and Christian Laugier. “BEVal: A Cross-dataset Evaluation Study of BEV Segmentation Models for Autononomous Driving”. In: 2024 18th International Conference on Control, Automation, Robotics and Vision (ICARCV). IEEE. 2024, pp. 704–709.
+
 ```bibtex
-@inproceedings{beval,
-  title={BEVal: A Cross-dataset Evaluation Study of BEV Segmentation Models for Autononomous Driving},
-  author={Diaz-Zapata, Manuel and Liu, Wenqian and Baruffa, Robin and  Laugier, Christian},
-  booktitle={Proceedings of the 18th International Conference on Control, Automation, Robotics and Vision (ICARCV)},
-  pages={tbd},
-  year={2024}
+@article{beval,
+  title={BEVal: A Cross-dataset Evaluation Study of BEV Segmentation Models for Autonomous Driving},
+  author={Diaz-Zapata, Manuel and Liu, Wenqian and Baruffa, Robin and Laugier, Christian},
+  booktitle={2024 18th International Conference on Control, Automation, Robotics and Vision (ICARCV)},
+  pages={704--709},
+  year={2024},
+  organization={IEEE}
 }
 
 ```
