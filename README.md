@@ -77,7 +77,13 @@ python train.py --config config/your_config_file.yaml
 
 ## Testing a model
 
-To test any of our models please first download the [model zoo](https://huggingface.co/manutheeng/beval_model_zoo), and extract the files.
+The models trained for the paper results are now being hosted on HuggingFace - Link to [model zoo](https://huggingface.co/manutheeng/beval_model_zoo).
+
+To test any of our models please download manually the weights, or use the HuggingFace CLI to download the whole catalog:
+
+```bash
+hf download manutheeng/beval_model_zoo --local-dir ./model_zoo
+```
 
 Then, launch the test script for the model you require (`lift_splat`, `LAPT` or `LAPT_PP`) as:
 
